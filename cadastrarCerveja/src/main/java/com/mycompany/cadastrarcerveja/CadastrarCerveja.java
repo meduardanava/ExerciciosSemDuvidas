@@ -8,10 +8,10 @@ public class CadastrarCerveja {
     public static void main(String[] args) {
         
         Scanner ler = new Scanner(System.in);
-        Atributos [] cadastrarCerveja = new Atributos[1];
+        Atributos [] cadastrarCerveja = new Atributos[5];
         
         
-        for(int i = 0; i < 1; i++){
+        for(int i = 0; i < 5; i++){
             System.out.println("Informe a marca da cerveja: ");
             String marca = ler.next();
             System.out.println("Informe a quantidade de cervejas dessa marca: ");
